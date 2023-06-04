@@ -3,14 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import CounterUseState from './components/CounterUseState';
+import CounterUseReducer from './components/CounterUseReducer';
+import ReducerPractice from './components/ReducerPractice';
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
 );
 root.render(
     <React.StrictMode>
-        <CounterUseState initialValue={0} />
+        <ReducerPractice initialValue={0} />
     </React.StrictMode>
 );
 
